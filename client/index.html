@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brewing</title>
+    <link rel="icon" href="images/icon3.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="all">
+    <h1>智能冲泡机操作台</h1>
+    <div class="passwordAre">
+        <span class="pas">请输入设备密钥：</span>
+        <input type="password" class="password" placeholder="6位密钥">
+        <button class="btn" id="switch" onclick="open_close_Switch()">开</button>
+    </div>
+    <div class="my_console">
+        <div class="one">
+            <span class="wen_du">温度</span>
+            <span class="data temp"></span>
+            <span>°C</span>
+        </div>
+        <div class="two">
+            <span class="test">重量</span>
+            <span class="data weight"></span>
+            <span>g</span>
+        </div>
+        <div class="three">
+                <span class="type">抽水<span class="water state2"></span></span>
+                <span class="type">搅拌<span class="stir state2"></span></span>
+        </div>
+        <div class="four">
+                <button class="btn-1">咖啡</button>
+                <button class="btn-2">茶叶</button>
+                <button class="btn-3">枸杞</button>
+                <button class="btn-4">人参</button>
+        </div>
+    </div>
+    
+</div>
+<script src="tcp.js"></script>
+</body>
+</html>

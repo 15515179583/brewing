@@ -1,0 +1,162 @@
+body{
+    width: 100%;
+    background-color: #4A374A;
+    background-color: #99a8da;
+    
+}
+.all{
+    width: 100%;
+    /*设置字体*/
+    font-family: 'Open Sans',sans-serif;
+    background-color: #4A374A;
+    background-color: #99a8da;
+}
+
+.all .my_console{
+    /*定义成弹性盒子*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*相对于body*/
+    /*position: absolute;
+    top: 45%;
+    left:50%;*/
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #99a8da;
+    box-shadow: 0 0 10px;
+    background-image: linear-gradient(to bottom right, #adb9df, #8c9eda);
+}
+.all span{
+    color: white;
+    font-size: 30px;
+    text-shadow:0 0 10px;
+    /*字母之间的间距*/
+    letter-spacing: 1px;
+    text-align: center;
+}
+.all .cao_zuo{
+    display: block;
+    width: 30px;
+    height: 80px;
+    /*定位*/
+    position: absolute;
+    top: 53%;
+    left: 75%;
+}
+.all .my_console div{
+    width: 550px;
+    height: 80px;
+    /*border: 1px solid red;*/
+    border-radius: 50px;
+    /*box-shadow: 0 0 5px;*/
+}
+/*对四个盒子单独修饰*/
+.all .my_console .one{
+    margin-top: -10px;
+}
+.all .my_console .two,.three,.four{
+    margin-top: 5px;
+}
+/*修饰span*/
+.all .my_console div span{
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    left: 30px;
+}
+.all .my_console div .state1{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #5fce5f;
+    border-radius: 30px;
+    box-shadow: 0 0 6px;
+}
+.all .my_console div .state2{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #da6a6a;
+    border-radius: 30px;
+    box-shadow: 0 0 6px;
+}
+.type {
+    width: 210px;
+}
+.all .data {
+    color: rgb(236, 92, 92);
+    width: 380px;
+}
+/*修饰button*/
+.all .my_console .four {
+    width: 500px;
+    height: 70px;
+    border-radius: 35px;
+    position: relative;
+    top: 4px;
+    left: 26px;
+}
+.all .my_console .four button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: 5px;
+    /*字体方面*/
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 5px;
+    outline: none;
+}
+.all .my_console .four button:hover{
+    cursor: pointer;
+}
+.all .my_console .four .btn-1{
+    left: 40px;
+}
+.all .my_console .four .btn-2{
+    left: 160px;
+}
+.all .my_console .four .btn-3{
+    left: 280px;
+}
+.all .my_console .four .btn-4{
+    left: 400px;
+}
+.passwordAre {
+    padding-left:130px;
+    width: 600px;
+    margin: 25px auto;
+}
+.pas {
+    vertical-align: bottom;
+}
+.password {
+    padding-left: 10px;
+    font-size: 25px;
+    vertical-align: bottom;
+    width: 100px;
+    height: 35px;
+}
+.passwordAre .btn {
+    /*width: 100px;
+    vertical-align: bottom;
+    border: 2px solid skyblue;
+    background-color: transparent;*/
+    margin-left: 20px;
+    width: 42px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: transparent;
+    /*字体方面*/
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 5px;
+    outline: none;
+}

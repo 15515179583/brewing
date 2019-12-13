@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "net": "^1.0.2",
+    "util": "^0.12.1",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "author": "smile",
+  "license": "ISC"
+}

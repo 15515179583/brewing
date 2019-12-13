@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 2.7em;
+    text-shadow:0 0 10px;
+    /*字母之间的间距*/
+    letter-spacing: 1px;
+}
